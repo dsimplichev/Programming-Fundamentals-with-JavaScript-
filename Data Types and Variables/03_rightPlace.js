@@ -1,13 +1,13 @@
-function rightPlace(string, replace, result){
+function rightPlace(string, replace, result) {
 
 
-let replaceWord = string.replace('_',replace);
+    let replaceWord = string.replace('_', replace);
 
-if(replaceWord !== result){
-    console.log("Not Matched")
-} else {
-    console.log("Matched")
-}
+    if (replaceWord !== result) {
+        console.log("Not Matched")
+    } else {
+        console.log("Matched")
+    }
 
 
 
