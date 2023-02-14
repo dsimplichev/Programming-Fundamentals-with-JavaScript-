@@ -8,8 +8,8 @@ function amazingNumbers(num) {
     }
   
 
-    result = sum.toString().includes('9')
-    if(num.includes('9')){
+    result = sum.toString().includes(9)
+    if(num.includes(9)){
       console.log(`${num} Amazing? False`)
     } else {
         console.log(`${num} Amazing? True`)
