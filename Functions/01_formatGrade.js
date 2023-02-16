@@ -18,6 +18,6 @@ function checkGrade(grade){
  
 
 }
-let result = checkGrade(4.57)
+
 
 console.log(result)
