@@ -1,20 +1,13 @@
-function amazingNumbers(num) {
+function amazingNumbers(input) {
 
-     num = num.toString()
-    let sum = 0
-    for (let i = 0; i < num.lenght; i++) {
-        sum += Number(num[i])
-        
-    }
-  
+    let result = input.toString().split("").map(Number).reduce((a, c) => a + c, 0).toString();
 
-    result = sum.toString().includes(9)
-    if(num.includes(9)){
-      console.log(`${num} Amazing? False`)
+    if(result.includes(9)) {
+        console.log(`${input} Amazing? True`)
     } else {
-        console.log(`${num} Amazing? True`)
+        console.log(`${input} Amazing? False`)
     }
 
 
 }
-amazingNumbers(999)
+amazingNumbers(1233)
